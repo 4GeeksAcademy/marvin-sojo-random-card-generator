@@ -1,1 +1,25 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+.base-card {
+  border-radius: 2rem;
+}
+
+.card {
+  border-radius: 2rem;
+}
+.card-header,
+.card-footer {
+  font-size: 6rem;
+}
+.card-footer {
+  transform: scaleY(-1);
+}
+.card-title {
+  font-size: 8rem;
+  font-family: "Times New Roman", Times, serif;
+}
+a {
+  color: whitesmoke;
+}
